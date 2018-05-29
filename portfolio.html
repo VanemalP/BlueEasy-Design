@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BlueEasy Portfolio</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/browser_ico.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="styles/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<h1><a href="index.html">BlueEasy</a></h1>
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li id="current"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div class="menuToggle">
+				<div class="menuBar topBar"></div>
+				<div class="menuBar middleBar"></div>
+				<div class="menuBar bottomBar"></div>
+			</div>
+		</nav>	
+	</header>
+
+	<div class="heroSlider">
+		<div class="slide">
+			<img class="slide_image" src="images/image_slider1.jpg" alt="rye field"> 
+			<div class="slideHeading">
+				<h2>"I'm looking for the unexpected.</h2><br>
+				<h2>I'm looking for things I've never seen before."</h2>
+			</div>
+		</div>
+		<div class="slide">
+			<img class="slide_image" src="images/image_slider2.jpg" alt="rye field"> 
+			<div class="slideHeading">
+				<h2>"I'm looking for the unexpected.</h2><br>
+				<h2>I'm looking for things I've never seen before."</h2>
+			</div>
+		</div>
+		<div class="slide">
+			<img class="slide_image" src="images/image_slider3.jpg" alt="lavender">
+			<div class="slideHeading">
+				<h2>"I'm looking for the unexpected.</h2><br>
+				<h2>I'm looking for things I've never seen before."</h2>
+			</div>
+		</div>
+	</div>	
+
+	<section class="portfolio">
+		<div class="centered">
+			<h1>Portfolio</h1>
+			<div class="filterContainer">
+				<ul>
+					<li id="active" data-filter="all"><a href="#All">All</a></li>
+					<li data-filter="panoramas"><a href="#Panoramas">Panoramas</a></li>
+					<li data-filter="portraits"><a href="#Portraits">Portraits</a></li>
+					<li data-filter="macro"><a href="#Macro">Macro</a></li>
+					<li data-filter="journal"><a href="#Journal">Journal</a></li>
+				</ul>
+			</div>
+			<div class="galeryGrid">
+				<div class="imgRow">
+					<div class="imgCol panoramas">
+						<div class="content">
+							<img src="images/panorama1.jpg" alt="pamorama image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgCol portraits">
+						<div class="content">
+							<img src="images/portrait1.jpg" alt="portrait image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgCol panoramas">
+						<div class="content">
+							<img src="images/panorama2.jpg" alt="panorama image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgCol portraits">
+						<div class="content">
+							<img src="images/portrait2.jpg" alt="portrait image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="imgRow">
+					<div class="imgCol">
+						<div class="content">
+							<img src="images/panorama3.jpg" alt="panorama image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgCol macro">
+						<div class="content">
+							<img src="images/macro1.jpg" alt="macro image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgCol journal">
+						<div class="content">
+							<img src="images/journal1.jpg" alt="journal image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgCol macro">
+						<div class="content">
+							<img src="images/macro2.jpg" alt="macro image" style="height:100%">
+							<div class="imgOverlay">
+							    <div class="text">+</div>
+							</div>
+						</div>
+					</div>						
+				</div>					
+			</div>
+		</div>
+		<div class="overlay">
+			<div id="modalWindow">
+				<img class="modalContent">
+				<a href="#close" class="close-modal"><i class="fas fa-times"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="twitter">
+		<div class="centered">
+			<h1>Twitter</h1>
+	    <span><i class="fab fa-twitter"></i></span>
+			<div class="quote">
+				<p>
+					Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake.
+				<p><strong>@cheesecake</strong> tootsie roll.</p>
+			</div>
+			<div class="quote">
+				<p>
+					Fusce imperdiet fringilla mi a lobortis. Curabitur blandit risus eget erat malesuada, quis dapibus nisl ornare. 
+				<p><strong>@tbonestake</strong> tootsie roll.</p>
+			</div>
+			<div class="quote">
+				<p>
+					In quis scelerisque arcu. Pellentesque tincidunt condimentum tellus, in ultrices lacus ultrices eget. Nulla vitae nulla lectus. 
+				<p><strong>@grilledchick</strong> tootsie roll.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="whoIs" style="background-image: url(images/image_whoIs.jpg)">
+		<div class="centered">
+			<h1>Who is John Doe?</h1>
+			<div class="leftContainer">
+				<p>
+					Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry. 
+				</p>
+				<p>
+					Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.
+				</p>
+			</div>
+			<div class="rightContainer">
+				<p>
+					Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.
+				</p>
+				<div class="social">
+					<a href="#twitter"><i class="fab fa-twitter"></i></a>
+					<a href="#google+"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#ball"><i class="fab fa-dribbble"></i></i></a>
+					<a href="#coffee"><i class="fas fa-coffee"></i></a>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<footer>
+		<div class="centered">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<p>2013 &copy</p>
+		</div>
+	</footer>
+</body>
+</html>
